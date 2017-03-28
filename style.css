@@ -1,0 +1,21 @@
+html {
+  background: url('bg-small2.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Monaco", "Arial";
+  text-align: center;
+
+  /*filter: blur(5px);*/
+}
+
+.parent {
+  height: 100%;
+}
+.child {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  /*transform: translateY(-50%);*/
+}
